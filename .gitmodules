@@ -1,0 +1,3 @@
+[submodule "awsfrwk"]
+	path = awsfrwk
+	url = git@github.com:samwellzuk/awsfrwk.git
