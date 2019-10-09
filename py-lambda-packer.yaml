@@ -1,0 +1,13 @@
+virtualenv:
+  python: python3.6
+  pip:
+    requirements:
+      - ./awsfrwk/requirements.txt
+packager:
+  target: py-lambda-package.zip
+  followlinks: true 
+  includes:
+    - awsfrwk/**
+    - lambda_function.py
+
+
