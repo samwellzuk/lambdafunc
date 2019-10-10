@@ -1,5 +1,5 @@
 virtualenv:
-  python: python3.6
+  python: python3.7
   pip:
     requirements:
       - ./awsfrwk/requirements.txt
